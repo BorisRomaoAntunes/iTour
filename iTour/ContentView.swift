@@ -8,6 +8,9 @@ import SwiftData
 import SwiftUI
 
 struct ContentView: View {
+    // variavel de ambiante que informa o que deve ser salvo no modelContext
+    @Environment(\.modelContext) var modelContext
+    
     @Query var destinantions: [Destination]
     var body: some View {
         NavigationStack{
@@ -31,6 +34,10 @@ struct ContentView: View {
         let rome = Destination(name: "Romar")
         let brazil = Destination(name: "Brasil")
         let japao = Destination(name: "Japão")
+        
+        modelContext.insert(rome)
+        modelContext.insert(brazil)
+        modelContext.insert(japao)
     }
 }
 
