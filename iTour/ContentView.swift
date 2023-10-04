@@ -35,6 +35,7 @@ struct ContentView: View {
         let brazil = Destination(name: "Brasil")
         let japao = Destination(name: "Japão")
         
+        // add esse objetos o modelo de dados
         modelContext.insert(rome)
         modelContext.insert(brazil)
         modelContext.insert(japao)
