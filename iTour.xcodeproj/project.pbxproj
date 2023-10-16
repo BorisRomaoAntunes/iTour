@@ -12,6 +12,7 @@
 		4F7E658B2ACCD6DC002E5038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7E658A2ACCD6DC002E5038 /* Assets.xcassets */; };
 		4F7E658E2ACCD6DC002E5038 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7E658D2ACCD6DC002E5038 /* Preview Assets.xcassets */; };
 		4F7E65952ACCD77A002E5038 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E65942ACCD77A002E5038 /* Destination.swift */; };
+		4F7E65972ACE10F7002E5038 /* EditiDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E65962ACE10F7002E5038 /* EditiDestinationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4F7E658A2ACCD6DC002E5038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F7E658D2ACCD6DC002E5038 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F7E65942ACCD77A002E5038 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		4F7E65962ACE10F7002E5038 /* EditiDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditiDestinationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				4F7E65862ACCD6DA002E5038 /* iTourApp.swift */,
 				4F7E65882ACCD6DA002E5038 /* ContentView.swift */,
 				4F7E65942ACCD77A002E5038 /* Destination.swift */,
+				4F7E65962ACE10F7002E5038 /* EditiDestinationView.swift */,
 				4F7E658A2ACCD6DC002E5038 /* Assets.xcassets */,
 				4F7E658C2ACCD6DC002E5038 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F7E65892ACCD6DA002E5038 /* ContentView.swift in Sources */,
+				4F7E65972ACE10F7002E5038 /* EditiDestinationView.swift in Sources */,
 				4F7E65872ACCD6DA002E5038 /* iTourApp.swift in Sources */,
 				4F7E65952ACCD77A002E5038 /* Destination.swift in Sources */,
 			);
